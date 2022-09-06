@@ -1,0 +1,232 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#logo-ini {
+    height: 100px;
+    margin: 15px;
+    padding: 19px;
+}
+
+input:focus {
+    border: 3px solid rgb(251, 243, 243);
+    outline: 0;
+}
+
+input {
+    border: 3px solid rgb(251, 243, 243);
+    outline: 0;
+    background-color: rgb(251, 243, 243);
+}
+
+.bi-search {
+    color: black;
+}
+
+header {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.container-nav {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.aside-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 40px;
+    height: 30px;
+}
+
+.container-menu {
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
+}
+
+.menu-nav {
+    height: 100%;
+}
+
+.menu-nav ul {
+    display: flex;
+}
+
+.menu-nav a {
+    padding: 20px;
+    color: white;
+}
+
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu-nav a:hover {
+    background-color: #e79d2d;
+    height: 100%;
+}
+
+.coracao {
+    padding: 0 10px 10px;
+    cursor: pointer;
+}
+
+.user {
+    padding: 0 10px 10px;
+    cursor: pointer;
+}
+
+.carrinho {
+    padding: 0 10px 10px;
+    cursor: pointer;
+}
+
+.aside-header i {
+    font-size: 25px;
+}
+
+
+/* Secao */
+
+#fundo {
+    background-image: url(../img/fundo.jpg);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-sec {
+    display: flex;
+    justify-content: center;
+}
+
+.title-box {
+    color: white;
+}
+
+.card-box {
+    width: 370px;
+    background: rgba(245, 245, 245, 0.4);
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.subtitle-box {
+    color: #fd9623;
+}
+
+.content-box {
+    color: white;
+}
+
+.btn-card button {
+    background-color: #333333;
+    color: white;
+    border: 0;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/*seção 2*/
+
+.sec-2 {
+    width: 100%vw;
+}
+
+.container-sec-2 {
+    display: flex;
+    flex: 3;
+    justify-content: space-between;
+}
+
+.anuncio-1 {
+    margin-top: 40px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.anuncio-2 {
+    margin-top: 40px;
+    position: relative;
+}
+
+.anuncio-3 {
+    margin-top: 40px;
+    margin-right: 50px;
+    position: relative;
+}
+
+.btn-anuncio1 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    background-color: #e0b0ff;
+    height: 30px;
+    padding-top: 15px;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-anuncio1:hover {
+    background-color: #e085e7;
+    transition: background-color 1.5s;
+}
+
+.btn-anuncio2 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    background-color: #e0b0ff;
+    height: 30px;
+    padding-top: 15px;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-anuncio2:hover {
+    background-color: #e085e7;
+    transition: background-color 1.5s;
+}
+
+.btn-anuncio3 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    background-color: #e0b0ff;
+    height: 30px;
+    padding-top: 15px;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-anuncio3:hover {
+    background-color: #e085e7;
+    transition: background-color 1.5s;
+}
